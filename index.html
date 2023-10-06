@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-language" content="en-US" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="icon" href="./assets/favicon.svg" type="image/x-icon" />
+
+    <!-- Meta tags -->
+    <meta name="description"
+        content="Discover the ultimate playlist of developers' favorite songs for coding on Flowlist. Contribute your favorite jams and join the coding community!" />
+    <meta name="keywords"
+        content="Flowlist, flow jams, developer Jams, coding jams, coding playlist, coding music, coding songs, open source" />
+    <meta name="robots" content="index,follow" />
+
+    <meta property="og:title" content="Flowlist - The Ultimate Playlist of Developers" />
+    <meta property="og:description"
+        content="Discover the ultimate playlist of developers' favorite songs for coding on Flowlist. Add your favorite songs and join the community!" />
+    <meta property="og:url" content="https://www.github.com/bereky/Flowlist" />
+
+    <!-- External links and CDNS -->
+    <link href="https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.5.1/dist/typography.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- CSS -->
+    <link href="./assets/style.css" rel="stylesheet" />
+
+    <title> Flowlist - The Ultimate Playlist of Developers</title>
+</head>
+
+<body>
+    <div class="scroll-smooth cursor-default">
+        <div class="font-jost flex flex-col justify-between min-h-screen bg-slate-900">
+            <!-- HEADER STARTS HERE -->
+            <header
+                class="sticky top-0 z-50 text-md font-medium text-slate-200 backdrop-blur-xl border-b border-slate-800/75">
+                <div class="flex items-center justify-between h-20 max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
+                    <nav class="hidden sm:flex sm:items-center sm:gap-4 lg:gap-8 text-3xl font-bold">
+                        <a href="https://flowlist.vercel.app" aria-current="page"
+                            class="uppercase order-first font-bold bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
+                            Flowlist</a>
+                    </nav>
+                    <div class="hidden md:flex md:items-center md:gap-4 lg:gap-8">
+                        <a href="https://github.com/bereky/Flowlist#" target="_blank" rel="noreferrer"
+                            class="hidden md:block hover:text-slate-200">
+                            <button
+                                class="gradient-bg uppercase bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 hover:bg-gradient-to-b hover:from-rose-400 hover:via-fuchsia-500 hover:to-indigo-500 transition duration-700 px-4 py-2 rounded-md text-slate-900 font-bold text-sm">
+                                Contribute
+                            </button>
+                        </a>
+                        <a href="https://github.com/bereky/Flowlist" target="_blank" rel="noreferrer"
+                            class="hover:shadow-lg"><span class="sr-only">GitHub</span>
+                            <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" class="h-10 w-10">
+                                <!-- Define the linear gradient -->
+                                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color: #ed64a6" />
+                                    <stop offset="50%" style="stop-color: #d946ef" />
+                                    <stop offset="100%" style="stop-color: #6366f1" />
+                                </linearGradient>
+
+                                <!-- Apply the gradient to the path -->
+                                <path fill="url(#gradient)" fill-rule="evenodd"
+                                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <a href="https://flowlist.vercel.app" aria-current="page"
+                        class="uppercase order-first sm:hidden font-bold bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent text-2xl">
+                        Flowlist</a>
+                    <div class="md:hidden flex items-center gap-4">
+                        <a href="https://github.com/bereky/Flowlist" target="_blank" rel="noreferrer"
+                            class="hover:shadow-lg"><span class="sr-only">GitHub</span>
+                            <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" class="h-10 w-10">
+                                <!-- Define the linear gradient -->
+                                <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color: #ed64a6" />
+                                    <stop offset="50%" style="stop-color: #d946ef" />
+                                    <stop offset="100%" style="stop-color: #6366f1" />
+                                </linearGradient>
+
+                                <!-- Apply the gradient to the path -->
+                                <path fill="url(#gradient2)" fill-rule="evenodd"
+                                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <!---->
+            </header>
+
+            <!-- END OF HEADER -->
+
+            <!-- MAIN CONTENT STARTS HERE -->
+            <main>
+                <div class="">
+                    <section class="relative text-center">
+                        <div class="mx-auto max-w-screen-xl px-2 py-24 sm:px-6 sm:py-24 lg:px-8 lg:py-28 lg:pb-28">
+                            <div class="mx-auto flex max-w-4xl flex-col">
+                                <h1
+                                    class="gradient-bg bg-clip-text text-5xl font-extrabold uppercase tracking-tighter text-transparent sm:text-7xl lg:text-8xl py-2">
+                                    <span
+                                        class="bg-gradient-to-r from-rose-600 via-fuchsia-500 via-indigo-500 to-rose-600 bg-clip-text text-transparent">
+                                        Masterpieces for
+                                    </span>
+                                    </br>
+                                    ` The Flow State`
+                                </h1>
+
+                            </div>
+                            <p class="mx-auto mt-5 max-w-2xl text-xl font-medium text-slate-200">
+                                Community curated playlist of songs for coding session
+                            </p>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="grid max-w-screen-xl grid-cols-1 gap-8 px-4 mx-auto sm:grid-cols-2 sm:px-6 lg:grid-cols-3 lg:px-8 cards"
+                            id="cards">
+                            <!-- song cards goes here -->
+                        </div>
+                    </section>
+
+                    <section class="relative text-center">
+                        <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 sm:py-24 lg:px-8 lg:pt-32 lg:pb-20">
+                            <div class="mx-auto flex max-w-3xl flex-col">
+                                <h1
+                                    class="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-3xl font-extrabold uppercase tracking-tighter text-transparent sm:text-3xl lg:text-6xl py-2">
+                                    Contribute to
+                                    <span class="gradient-bg bg-clip-text text-transparent">
+                                        FLOWLIST
+                                    </span>
+                                </h1>
+
+                                <p class="mx-auto mt-8 max-w-2xl text-xl font-medium text-slate-200 font-light">
+                                    The purpose of Flowlist is encouraging collaboration and open
+                                    source contribution. All songs in the list are collected from developers through
+                                    github contribution. If you have a favorite tune that gets
+                                    you in the zone, why not share it with the community? We
+                                    would love to listen to it.
+                                </p>
+                            </div>
+                            <p class="mx-auto mt-8 max-w-2xl text-xl font-medium text-slate-200">
+                                <a href="https://github.com/bereky/Flowlist#" target="_blank" rel="noreferrer"
+                                    class="block hover:text-slate-200">
+                                    <button
+                                        class="gradient-bg uppercase bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 hover:bg-gradient-to-b hover:from-rose-400 hover:via-fuchsia-500 hover:to-indigo-500 transition duration-700 px-10 py-3 rounded-md text-slate-900 font-bold text-md">
+                                        Add tune
+                                    </button>
+                                </a>
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </main>
+
+            <!-- END OF MAIN -->
+
+            <section>
+                <div class="grid max-w-screen-xl grid-cols-1 gap-8 px-4 mx-auto sm:grid-cols-2 sm:px-6 lg:grid-cols-3 lg:px-8 cards"
+                    id="cards">
+                    <!-- song cards goes here -->
+                </div>
+            </section>
+            <!-- FOOTER STARTS HERE -->
+            <footer class="mt-16 border-t border-slate-800/80 bg-slate-900 py-6">
+                <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+                    <p class="text-center text-sm font-medium text-slate-200">
+                        Made with ❤️ by
+                        <a href="https://github.com/bereky" target="_blank" rel="noreferrer" class="hover:underline">
+                            @bereky</a>
+                    </p>
+                </div>
+            </footer>
+
+            <!-- END OF FOOTER -->
+        </div>
+    </div>
+
+    <script src="assets/main.js" type="text/javascript"></script>
+</body>
+
+</html>
