@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
                       class="rounded-xl flex absolute -sm"
                     >
                       <img
-                        src="https://img.youtube.com/vi/${videoId}/maxresdefault.jpg"
+                        src="https://img.youtube.com/vi/${videoId}/hqdefault.jpg"
                         alt=""
                         class="flex flex-shrink-0 object-cover h-full w-full"
                       />
